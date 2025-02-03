@@ -9,7 +9,7 @@ room_type_reserved VARCHAR(20) NOT NULL,
 lead_time INT NOT NULL,
 arrival_date DATE NOT NULL,	
 market_segment_type VARCHAR(20) NOT NULL,
-avg_price_per_room	DECIMAL(10,2) NOT NULL,
+avg_price_per_room DECIMAL(10,2) NOT NULL,
 booking_status VARCHAR(20) NOT NULL
 )
 
