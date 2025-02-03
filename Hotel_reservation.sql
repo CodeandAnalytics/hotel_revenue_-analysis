@@ -48,8 +48,7 @@ WHERE booking_status ='Canceled' OR booking_status ='Not_Canceled'
 GROUP BY booking_status 
 
 SELECT 
-    booking_status,
-    COUNT(*) AS total_bookings,
+    booking_status,COUNT(*) AS total_bookings,
     SUM(avg_price_per_room) AS total_revenue
 FROM Hotel_reservation
 WHERE booking_status IN ('Canceled', 'Not_Canceled')
